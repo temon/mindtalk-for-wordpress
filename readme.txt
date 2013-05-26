@@ -1,5 +1,5 @@
 === Mindtalk Share ===
-Contributors: (this should be a list of wordpress.org userid's)
+Contributors: temonehm
 Donate link: http://mindtalk.com/
 Tags: mindtalk button, social media, plugins, mindtalk plugins, mindtalk share
 Requires at least: 3.0.1

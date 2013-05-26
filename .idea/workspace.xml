@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" name="Default" comment="fix read me">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshoot-1.JPEG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshoot-2.JPEG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshoot-3.JPEG" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/screenshoot-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/screenshoot-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/screenshoot-3.jpg" afterPath="" />
+    <list default="true" id="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mindtalk-for-wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369583929272" ignored="false" />
-    <file path="/readme.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369583510966" ignored="false" />
+    <file path="/Dummy.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369583955083" ignored="false" />
+    <file path="/readme.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369584063431" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,26 @@
     <favorites_list name="mindtalk-for-wordpress" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="7" selection-start="227" selection-end="227" vertical-scroll-proportion="0.19848771">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mindtalk-for-wordpress.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mindtalk-for-wordpress.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="21" selection-start="532" selection-end="532" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -308,7 +322,11 @@
       <created>1369583551186</created>
       <updated>1369583551186</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix screenshoot">
+      <created>1369583958896</created>
+      <updated>1369583958896</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -380,7 +398,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix read me" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix screenshoot" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -399,6 +417,7 @@
     <MESSAGE value="add screenshoot" />
     <MESSAGE value="fix read me and change the plugins name" />
     <MESSAGE value="fix read me" />
+    <MESSAGE value="fix screenshoot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -421,16 +440,16 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
+    <entry file="file://$PROJECT_DIR$/mindtalk-for-wordpress.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="70" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.6805293">
+        <state line="14" column="21" selection-start="532" selection-end="532" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mindtalk-for-wordpress.php">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="361" selection-end="361" vertical-scroll-proportion="0.2970297">
+        <state line="7" column="7" selection-start="227" selection-end="227" vertical-scroll-proportion="0.19848771">
           <folding />
         </state>
       </provider>
