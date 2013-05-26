@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshoot-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshoot-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshoot-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mindtalk-for-wordpress.php" afterPath="$PROJECT_DIR$/mindtalk-for-wordpress.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mindtalk-for-wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369579688931" ignored="false" />
+    <file path="/Dummy.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369580653580" ignored="false" />
+    <file path="/readme.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369583381050" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +68,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mindtalk-for-wordpress.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="31" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.7088847">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mindtalk-for-wordpress.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mindtalk-for-wordpress.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="67" selection-start="116" selection-end="116" vertical-scroll-proportion="0.08514851">
+            <state line="10" column="26" selection-start="361" selection-end="361" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -101,6 +110,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/mindtalk-for-wordpress.php" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -147,16 +157,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mindtalk-for-wordpress" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mindtalk-for-wordpress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mindtalk-for-wordpress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -301,7 +301,11 @@
       <created>1369579695583</created>
       <updated>1369579695583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add screenshoot">
+      <created>1369580660574</created>
+      <updated>1369580660574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -373,7 +377,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix plugins url" />
+    <option name="LAST_COMMIT_MESSAGE" value="add screenshoot" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -389,6 +393,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="adding tiny mce" />
     <MESSAGE value="fix plugins url" />
+    <MESSAGE value="add screenshoot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -413,7 +418,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mindtalk-for-wordpress.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="67" selection-start="116" selection-end="116" vertical-scroll-proportion="0.08514851">
+        <state line="10" column="26" selection-start="361" selection-end="361" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="31" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.7088847">
           <folding />
         </state>
       </provider>

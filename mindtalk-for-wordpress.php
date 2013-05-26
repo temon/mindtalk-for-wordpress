@@ -1,6 +1,6 @@
 <?php
 /*
-    Plugin Name: Mindtalk for Wordpress
+    Plugin Name: Mindtalk share
     Plugin URI: https://github.com/temon/mindtalk-for-wordpress.git
     Description: Mindtalk is a social channel. This plugins is Add Mindtalk share button and widget on Wordpress.
     Author: Eko Prastyo
