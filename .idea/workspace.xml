@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mindtalk-for-wordpress.php" afterPath="$PROJECT_DIR$/mindtalk-for-wordpress.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mindtalk-for-wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369580653580" ignored="false" />
-    <file path="/readme.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369583381050" ignored="false" />
+    <file path="/Dummy.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369583436254" ignored="false" />
+    <file path="/readme.txt" changelist="a8b2e522-64e0-4bbc-aa06-da2721a0eb1c" time="1369583510966" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="31" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.7088847">
+            <state line="10" column="97" selection-start="0" selection-end="1326" vertical-scroll-proportion="0.2268431">
               <folding />
             </state>
           </provider>
@@ -305,7 +304,11 @@
       <created>1369580660574</created>
       <updated>1369580660574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix read me and change the plugins name">
+      <created>1369583441909</created>
+      <updated>1369583441909</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -377,7 +380,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add screenshoot" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix read me and change the plugins name" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -394,6 +397,7 @@
     <MESSAGE value="adding tiny mce" />
     <MESSAGE value="fix plugins url" />
     <MESSAGE value="add screenshoot" />
+    <MESSAGE value="fix read me and change the plugins name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -425,7 +429,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.7088847">
+        <state line="10" column="97" selection-start="0" selection-end="1326" vertical-scroll-proportion="0.2268431">
           <folding />
         </state>
       </provider>

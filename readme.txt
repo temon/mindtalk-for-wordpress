@@ -8,7 +8,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Mindtalk is a social channel. This plugins is Add Mindtalk share button and widget on Wordpress. You can also customize your link and title every button on your content. From Admin panel you can setting where the button showing.
+Mindtalk is a social channel. This plugins is Add Mindtalk share button and widget on Wordpress.
 
 == Description ==
 
