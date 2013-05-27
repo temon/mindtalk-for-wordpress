@@ -1,7 +1,7 @@
 <?php
 /*
-    Plugin Name: Mindtalk share
-    Plugin URI: https://github.com/temon/mindtalk-for-wordpress.git
+    Plugin Name: Mindtalk for Wordpress
+    Plugin URI: https://github.com/temon/mindtalk-wordpress
     Description: Mindtalk is a social channel. This plugins is Add Mindtalk share button and widget on Wordpress.
     Author: Eko Prastyo
     Author URI: http://jajanapa.com
@@ -40,7 +40,15 @@ if(is_admin()){
     // adding the filter for tinyMCE
     add_filter('mce_external_plugins', "on_mindtalkplugin_register");
     add_filter('mce_buttons', 'on_mindtalk_add_button', 0);
+    add_action('wp_ajax_add_button', 'wp_ajaxaddbutton');
 
+    /**
+     * ajax for adding mindtalk
+     */
+    function wp_ajaxaddbutton(){
+        require_once(ON_MINDTALK_DIR.'tinymce/dialog.php');
+        die();
+    }
 
     /**
      * add separator ont tinyMCE
@@ -67,6 +75,8 @@ if(is_admin()){
         $plugin_array["mindtalkplugin"] = $url;
         return $plugin_array;
     }
+
+
 
 } else {
 
@@ -152,61 +162,61 @@ if(is_admin()){
 function on_mindtalk_panel() { ?>
 
     <div class="wrap">
-    <div id="icon-options-general" class="icon32"><br></div>
-    <h2>Mindtalk Options</h2>
+        <div id="icon-options-general" class="icon32"><br></div>
+        <h2>Mindtalk Options</h2>
 
-    <div style="float: right; width: 300px; padding: 5px; background-color: #FFFBCC; border: 1px solid #E6DB55; color: #555;">
-        <h3>Thanks mas bro</h3>
-        <p>Thanks a lot for using my plugin, happy mindtalking and blogging. contact me at : <a href="http://jajanapa.com">Eko Prastyo</a></p>
-    </div>
+        <div style="float: right; width: 300px; padding: 5px; background-color: #FFFBCC; border: 1px solid #E6DB55; color: #555;">
+            <h3>Thanks mas bro</h3>
+            <p>Thanks a lot for using my plugin, happy mindtalking and blogging. contact me at : <a href="http://jajanapa.com">Eko Prastyo</a></p>
+        </div>
 
-    <form method="post" action="options.php" id="options" style="float: left;">
-    <?php wp_nonce_field('update-options') ?>
+        <form method="post" action="options.php" id="options" style="float: left;">
+            <?php wp_nonce_field('update-options') ?>
 
-    <h3>Setting General</h3>
+            <h3>Setting General</h3>
 
-    <table class="form-table">
-        <tbody>
+            <table class="form-table">
+                <tbody>
 
-        <tr valign="top">
-            <th scope="row">Display position</th>
-            <td>
-                <?php $checked_top = (get_option('on_mindtalk_top') == 'on') ? ' checked="yes"' : ''; ?>
-                <label id="on_mindtalk_top" ><input type="checkbox" id="on_mindtalk_top" name="on_mindtalk_top"<?php echo $checked_top; ?> /> Top of content</label>
-                <br />
-                <?php $checked_bottom = (get_option('on_mindtalk_bottom') == 'on') ? ' checked="yes"' : ''; ?>
-                <label id="on_mindtalk_bottom" ><input type="checkbox" id="on_mindtalk_bottom" name="on_mindtalk_bottom"<?php echo $checked_bottom; ?> /> Bottom of content</label>
+                <tr valign="top">
+                    <th scope="row">Display position</th>
+                    <td>
+                        <?php $checked_top = (get_option('on_mindtalk_top') == 'on') ? ' checked="yes"' : ''; ?>
+                        <label id="on_mindtalk_top" ><input type="checkbox" id="on_mindtalk_top" name="on_mindtalk_top"<?php echo $checked_top; ?> /> Top of content</label>
+                        <br />
+                        <?php $checked_bottom = (get_option('on_mindtalk_bottom') == 'on') ? ' checked="yes"' : ''; ?>
+                        <label id="on_mindtalk_bottom" ><input type="checkbox" id="on_mindtalk_bottom" name="on_mindtalk_bottom"<?php echo $checked_bottom; ?> /> Bottom of content</label>
 
-            </td>
-        </tr>
+                    </td>
+                </tr>
 
-        <tr valign="top">
-            <th scope="row">Show on </th>
-            <td>
-                <?php $checked_posts = (get_option('on_mindtalk_posts') == 'on') ? ' checked="yes"' : ''; ?>
-                <label id="on_mindtalk_posts" ><input type="checkbox" id="on_mindtalk_posts" name="on_mindtalk_posts"<?php echo $checked_posts; ?> /> Post</label>
+                <tr valign="top">
+                    <th scope="row">Show on </th>
+                    <td>
+                        <?php $checked_posts = (get_option('on_mindtalk_posts') == 'on') ? ' checked="yes"' : ''; ?>
+                        <label id="on_mindtalk_posts" ><input type="checkbox" id="on_mindtalk_posts" name="on_mindtalk_posts"<?php echo $checked_posts; ?> /> Post</label>
 
-                <br/>
+                        <br/>
 
-                <?php $checked_pages = (get_option('on_mindtalk_pages') == 'on') ? ' checked="yes"' : ''; ?>
-                <label id="on_mindtalk_pages" ><input type="checkbox" id="on_mindtalk_pages" name="on_mindtalk_pages"<?php echo $checked_pages; ?> /> Pages</label>
+                        <?php $checked_pages = (get_option('on_mindtalk_pages') == 'on') ? ' checked="yes"' : ''; ?>
+                        <label id="on_mindtalk_pages" ><input type="checkbox" id="on_mindtalk_pages" name="on_mindtalk_pages"<?php echo $checked_pages; ?> /> Pages</label>
 
-                <br/>
+                        <br/>
 
-                <?php $checked_home = (get_option('on_mindtalk_homepage') == 'on') ? ' checked="yes"' : ''; ?>
-                <label id="on_mindtalk_homepage" ><input type="checkbox" id="on_mindtalk_homepage" name="on_mindtalk_homepage"<?php echo $checked_home; ?> /> Home Page</label>
-            </td>
-        </tr>
+                        <?php $checked_home = (get_option('on_mindtalk_homepage') == 'on') ? ' checked="yes"' : ''; ?>
+                        <label id="on_mindtalk_homepage" ><input type="checkbox" id="on_mindtalk_homepage" name="on_mindtalk_homepage"<?php echo $checked_home; ?> /> Home Page</label>
+                    </td>
+                </tr>
 
-        </tbody>
-    </table>
+                </tbody>
+            </table>
 
-    <input type="hidden" name="action" value="update" />
-    <input type="hidden" name="page_options" value="on_mindtalk_posts, on_mindtalk_pages, on_mindtalk_homepage, on_mindtalk_top, on_mindtalk_bottom" />
-    <div class="submit"><input type="submit" class="button-primary" name="submit" value="Save Settings"></div>
+            <input type="hidden" name="action" value="update" />
+            <input type="hidden" name="page_options" value="on_mindtalk_posts, on_mindtalk_pages, on_mindtalk_homepage, on_mindtalk_top, on_mindtalk_bottom" />
+            <div class="submit"><input type="submit" class="button-primary" name="submit" value="Save Settings"></div>
 
 
-    </form>
+        </form>
 
     </div>
 

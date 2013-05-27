@@ -1,33 +1,20 @@
-<?php
-$wp_include = "../wp-load.php";
-$i = 0;
-while (!file_exists($wp_include) && $i++ < 10) {
-  $wp_include = "../$wp_include";
-}
-
-// let's load WordPress
-require($wp_include);
-
-
-?>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Mindtalk Share Shortcode Panel</title>
-	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php echo get_option('blog_charset'); ?>" />
-	<script language="javascript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/wp-includes/js/tinymce/tiny_mce_popup.js"></script>
-	<script language="javascript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/wp-includes/js/tinymce/utils/mctabs.js"></script>
-	<script language="javascript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/wp-includes/js/tinymce/utils/form_utils.js"></script>
-	<script language="javascript" type="text/javascript" src="<?php echo ON_MINDTALK_URL; ?>tinymce/tinymce.js"></script>
+    <title>Mindtalk Share Shortcode Panel</title>
+    <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php echo get_option('blog_charset'); ?>" />
+    <script language="javascript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+    <script language="javascript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/wp-includes/js/tinymce/utils/mctabs.js"></script>
+    <script language="javascript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/wp-includes/js/tinymce/utils/form_utils.js"></script>
+    <script language="javascript" type="text/javascript" src="<?php echo ON_MINDTALK_URL; ?>tinymce/tinymce.js"></script>
 </head>
 <body id="link" style="display: none">
 <form name="on_tabs" action="#">
-	<div class="tabs">
-	</div>
-	
-	<div class="panel_wrapper">
-		<!-- gallery panel -->
-		<div id="onshortcode_panel" class="panel current">
+    <div class="tabs">
+    </div>
+
+    <div class="panel_wrapper">
+        <!-- gallery panel -->
+        <div id="onshortcode_panel" class="panel current">
             <br />
 
             <table border="0" cellpadding="2" cellspacing="0">
@@ -45,21 +32,21 @@ require($wp_include);
                 </tr>
             </table>
 
-		</div>
-		
-	</div>
-		
-	
-	</div>
+        </div>
 
-	<div class="mceActionPanel">
-		<div style="float: left">
-			<input type="button" id="cancel" name="cancel" value="Cancel" onClick="tinyMCEPopup.close();" />
-		</div>
+    </div>
 
-		<div style="float: right">
-			<input type="submit" id="insert" name="insert" value="Insert" onClick="onshortcodesubmit();" />
-		</div>
-	</div>
+
+    </div>
+
+    <div class="mceActionPanel">
+        <div style="float: left">
+            <input type="button" id="cancel" name="cancel" value="Cancel" onClick="tinyMCEPopup.close();" />
+        </div>
+
+        <div style="float: right">
+            <input type="submit" id="insert" name="insert" value="Insert" onClick="onshortcodesubmit();" />
+        </div>
+    </div>
 </form>
 </body>

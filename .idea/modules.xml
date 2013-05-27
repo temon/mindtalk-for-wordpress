@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/public_html/jajanapa/jajanapa.iml" filepath="$USER_HOME$/public_html/jajanapa/jajanapa.iml" />
       <module fileurl="file://$PROJECT_DIR$/mindtalk-for-wordpress.iml" filepath="$PROJECT_DIR$/mindtalk-for-wordpress.iml" />
     </modules>
   </component>
